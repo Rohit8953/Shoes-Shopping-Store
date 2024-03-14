@@ -11,7 +11,6 @@ import Cart from "./BuyProducts/Cart";
 import Like from "./BuyProducts/Like";
 import { NavLink } from "react-router-dom";
 import { IoMoonOutline } from "react-icons/io5";
-import { FaLeaf } from "react-icons/fa";
 
 function App(){
 const[bg,setbg]=useState(false);
@@ -33,7 +32,7 @@ return (
 
             </div>
 
-            <div className=" pl-14 pr-14">
+            <div className="px-5 md:px-10">
                 <Routes>
                   <Route path="/"element={<Categoryfilter/>}/>
                 </Routes>

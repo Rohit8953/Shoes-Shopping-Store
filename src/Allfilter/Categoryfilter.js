@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react'
+import React, { useContext } from 'react'
 import '../index.css';
 import { data } from '../data';
 import { Appcontext } from '../Recomeneded/Appcontext';

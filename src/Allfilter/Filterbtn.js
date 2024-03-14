@@ -12,8 +12,6 @@ array=[...new Set(arr)];
 console.log(array);
 
 const{
-    btnvalue,
-    setbtnvalue,
     clickhandler
  }=useContext(Appcontext);
 

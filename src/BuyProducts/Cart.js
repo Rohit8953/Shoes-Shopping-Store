@@ -1,13 +1,9 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext } from 'react'
 import { Appcontext } from '../Recomeneded/Appcontext';
 
 const Cart = () => {
   
     const{
-        btnvalue,
-        setbtnvalue,
-        clickhandler,
-        Addtocart,
         addtocart,
         removefromcart
      }=useContext(Appcontext);

@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext } from 'react'
 import { data } from '../data';
 import { Appcontext } from '../Recomeneded/Appcontext';
 
@@ -14,8 +14,7 @@ const Pricefilter = () => {
   console.log(array);
   
   const{
-      btnvalue,
-      setbtnvalue,
+
       clickhandler
    }=useContext(Appcontext);
  

@@ -6,7 +6,6 @@ import Nolike from './Nolike';
 const Like = () => {
     const{
         likeheart,
-        setlikeheart,
         removelikeheaet,
         Addtocart
      }=useContext(Appcontext);

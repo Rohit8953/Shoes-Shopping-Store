@@ -23,7 +23,7 @@ const Searchbtn = () => {
         </Link>
 
         <div className='flex flex-row gap-4'>
-
+           
 
            <NavLink to='/like'>
             <div className='relative'>

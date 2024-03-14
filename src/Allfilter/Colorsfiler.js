@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react'
+import React, { useContext } from 'react'
 import { data } from '../data';
 import { Appcontext } from '../Recomeneded/Appcontext';
 
@@ -14,8 +14,6 @@ const Colorsfiler=()=>{
   console.log(array);
   
   const{
-      btnvalue,
-      setbtnvalue,
       clickhandler
     }=useContext(Appcontext);
 

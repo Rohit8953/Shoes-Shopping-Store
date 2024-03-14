@@ -28,12 +28,15 @@ const likehandler=(index)=>{
     return newLike;
   });
   
-  setlikeheart((prev)=>[...new Set([...prev, data[index]])] )
-
+  setlikeheart((prev)=>[...new Set([...prev, data[index]])] );
 }
+
+
 const removelikeheaet=(idx)=>{
   setlikeheart((prev) => prev.filter((item,index) => index !== idx));
 }
+
+
 console.log(likeheart);
 const value={
     data,
